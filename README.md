@@ -10,6 +10,8 @@ Testing is done against positive labels only
 
 the purpose of multisampling is to see how powerful is the model against small sample size
 
+usually when you sample from the data randomly, you get different probabilities. then you have to take the average of these probabilities to make sure you have a robust result
+
 this could help in knowing which model could be good for domains with limited amount of samples such as rare diseases in medical domain
 
 domain adaptation could help in overcoming the problem of limited sample size but more experiements are needed 
